@@ -2,7 +2,7 @@
 
 Welcome to our Python Notebook Tutorial Series, designed to complement and expand upon various programming concepts introduced in Medium tutorials. Our aim is to provide you with hands-on experience and deeper insights into practical applications of advanced programming techniques.
 
-## Tutorial 1: Dynamic React Agents with dynamic Top_k function
+## Tutorial 1: React Agents with dynamic Top_k function
 
 This first notebook in the series focuses on the integration of React agents with a dynamic top _k function, based on "Llama Index Framework". It demonstrates how to enhance selection processes, making them more efficient and adaptable to dynamic conditions. This tutorial serves as a practical extension to the theoretical concepts discussed in the corresponding Medium article.
 
