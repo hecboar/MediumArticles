@@ -21,6 +21,25 @@ Stay tuned for more tutorials in this series, where we'll continue to explore an
 
 Before diving into this notebook, make sure you have a basic understanding of Python and React. Familiarity with data processing concepts will also be helpful.
 
+## Tutorial 2: Effortless Press Article Generation with BBC, ChatGPT, and Jinja
+
+In this second tutorial, you'll learn how to effortlessly generate press articles by combining BBC web scraping, ChatGPT for rewriting, and a Jinja template for seamless formatting into a Word document. This practical guide builds upon the concepts introduced in the corresponding Medium article.
+
+### What You Will Learn
+
+- **Introduction to Web Scraping and ChatGPT Integration: Understand the fundamentals of web scraping with the BBC RSS feed and how to integrate OpenAI's ChatGPT for rewriting articles.
+- **Using a Jinja Template: Learn how to create and customize a Jinja template that matches the JSON structure, enabling you to generate polished Word documents.
+- **Step-by-Step Implementation:
+1. Extract Information from BBC: Scrape data using the RSS feed and process it into a structured format with Pandas.
+2. Enrich Data with ChatGPT: Use prompts to enrich the scraped data with specific topics and rewrite the content in JSON format.
+3. Format with a Jinja Template: Implement a Jinja template that matches the JSON structure for seamless formatting into a Word document.
+
+### Prerequisites
+
+Basic Python Knowledge and basic knowledge of web scraping using BeautifulSoup (BS4) will help you follow along more easily.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Why Google Colab?
 
 We recommend using **Google Colab** for running these notebooks for several reasons:
