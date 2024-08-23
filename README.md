@@ -37,7 +37,21 @@ In this second tutorial, you'll learn how to effortlessly generate press article
 ### Prerequisites
 
 Basic Python Knowledge and basic knowledge of web scraping using BeautifulSoup (BS4) will help you follow along more easily.
+## Tutorial 3: Automating Table of Content Extraction and Filtering with LlamaIndex
 
+In this tutorial, you'll learn how to automate the extraction of tables of contents from research papers and apply metadata filters for more accurate document retrieval using LlamaIndex. This tutorial builds on the concepts introduced in the corresponding Medium article.
+
+### What You Will Learn
+
+- **PDF to HTML Conversion**: Convert PDFs to HTML for cleaner data extraction.
+- **Automated Table of Content Extraction**: Extract and assign section names from research papers automatically.
+- **Metadata Filters**: Apply metadata filters to refine document retrieval, enhancing LLM accuracy.
+- **Creating a Vector Store Index**: Build a vector store index and query it using metafilters for better information retrieval.
+
+### Prerequisites
+
+- Basic understanding of Python, web scraping, and data processing.
+- Familiarity with large language models and Google Colab.
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Why Google Colab?
