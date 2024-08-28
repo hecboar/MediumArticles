@@ -37,6 +37,7 @@ In this second tutorial, you'll learn how to effortlessly generate press article
 ### Prerequisites
 
 Basic Python Knowledge and basic knowledge of web scraping using BeautifulSoup (BS4) will help you follow along more easily.
+
 ## Tutorial 3: Automating Table of Content Extraction and Filtering with LlamaIndex
 
 In this tutorial, you'll learn how to automate the extraction of tables of contents from research papers and apply metadata filters for more accurate document retrieval using LlamaIndex. This tutorial builds on the concepts introduced in the corresponding Medium article.
@@ -52,6 +53,23 @@ In this tutorial, you'll learn how to automate the extraction of tables of conte
 
 - Basic understanding of Python, web scraping, and data processing.
 - Familiarity with large language models and Google Colab.
+
+  ### Tutorial 4: Automating Table of Content Extraction and Filtering in Papers with LlamaIndex (Part 2)
+
+This tutorial builds on the previous part, focusing on using metadata embeddings to enhance search capabilities within research papers, allowing for more accurate retrieval even with similar but different terms.
+
+#### What You Will Learn:
+
+- **Metafilters with Embeddings:** Improve document retrieval by embedding metadata and applying metafilters using OpenAI's embedding models.
+- **Similarity Search Without Weights:** Perform searches based on metadata similarity without additional weighting.
+- **Weighted Similarity and Normalization:** Apply custom weights to specific keywords to refine search results (e.g., prioritizing "Conclusion" sections).
+- **Advanced Querying with Vector Store Index:** Create and use a vector store index for advanced queries with LlamaIndex.
+
+#### Prerequisites:
+
+- Basic knowledge of Python and machine learning.
+- Familiarity with vector-based search techniques and large language models.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Why Google Colab?
