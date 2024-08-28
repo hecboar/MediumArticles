@@ -54,7 +54,7 @@ In this tutorial, you'll learn how to automate the extraction of tables of conte
 - Basic understanding of Python, web scraping, and data processing.
 - Familiarity with large language models and Google Colab.
 
-  ### Tutorial 4: Automating Table of Content Extraction and Filtering in Papers with LlamaIndex (Part 2)
+  ## Tutorial 4: Automating Table of Content Extraction and Filtering in Papers with LlamaIndex (Part 2)
 
 This tutorial builds on the previous part, focusing on using metadata embeddings to enhance search capabilities within research papers, allowing for more accurate retrieval even with similar but different terms.
 
