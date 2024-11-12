@@ -54,7 +54,7 @@ In this tutorial, you'll learn how to automate the extraction of tables of conte
 - Basic understanding of Python, web scraping, and data processing.
 - Familiarity with large language models and Google Colab.
 
-  ## Tutorial 4: Automating Table of Content Extraction and Filtering in Papers with LlamaIndex (Part 2)
+## Tutorial 4: Automating Table of Content Extraction and Filtering in Papers with LlamaIndex (Part 2)
 
 This tutorial builds on the previous part, focusing on using metadata embeddings to enhance search capabilities within research papers, allowing for more accurate retrieval even with similar but different terms.
 
@@ -69,6 +69,27 @@ This tutorial builds on the previous part, focusing on using metadata embeddings
 
 - Basic knowledge of Python and machine learning.
 - Familiarity with vector-based search techniques and large language models.
+
+
+## Tutorial 5: Building an AI Real-Time Trading System with Kafka & LlamaIndex
+
+In this tutorial, you'll create a real-time trading bot that uses Kafka for streaming EUR/USD bid-ask data, LlamaIndex workflows for seamless data handling, and GPT-4o for sophisticated decision-making. The bot can capture real-time bid-ask prices, analyze them, and make decisions such as buying, selling, or holding, forming a foundation for a more advanced AI trading system with future rebalancing potential.
+
+### What You Will Learn
+
+- **Real-Time Data Streaming with Kafka**: Set up Kafka to stream real-time bid-ask data from Investing.com for the EUR/USD currency pair.
+- **Decision Making with LlamaIndex and GPT**: Build a workflow in LlamaIndex that uses GPT-4o for initial chart analysis and GPT-3.5 for trading decisions.
+- **Step-by-Step Implementation**:
+  1. **Download Daily EUR/USD Chart**: Use Selenium to capture a daily chart for initial analysis by GPT-4o.
+  2. **Configure Kafka Data Stream**: Create a Kafka topic to collect and stream bid-ask data every 5 seconds.
+  3. **Implement LlamaIndex Workflow**: Integrate LlamaIndex workflows that use technical indicators and GPT-3.5 to generate trading recommendations.
+
+
+#### Prerequisites:
+
+- Basic knowledge of Python and scraping techniques.
+- Familiarity with real-time data streaming and large language models.
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
