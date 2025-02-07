@@ -91,6 +91,34 @@ In this tutorial, you'll create a real-time trading bot that uses Kafka for stre
 - Familiarity with real-time data streaming and large language models.
 
 
+## Tutorial 6: Building an Industrial AI Chatbot with NeMo Guardrails and LlamaIndex 🚧🤖
+
+In this tutorial, we demonstrate how to build a robust AI chatbot tailored for industrial applications, such as crane operations. By combining **NeMo Guardrails**, **LlamaIndex**, and **Docling**, this bot ensures accurate information retrieval, conversational flow management, and contextual relevance. We'll walk through parsing an industrial manual, creating a Retrieval-Augmented Generation (RAG) pipeline, and implementing custom conversation rules.
+
+#### What You Will Learn 📘
+
+- **Parsing Industrial Documents with Docling**: Extract structured text from PDF manuals and split it into manageable nodes.
+- **Retrieval-Augmented Generation (RAG) with LlamaIndex**: Build a query engine that retrieves relevant technical information from indexed nodes.
+- **Guardrails for Safe Conversations**: Implement NeMo Guardrails to moderate user inputs, validate outputs, and enforce conversational flow constraints.
+- **Custom RAG Actions**: Learn to handle out-of-scope queries by escalating them to expert systems.
+
+#### Step-by-Step Implementation ⚙️
+
+1. **Prepare the Document**: Use **Docling** to parse and convert PDF manuals into structured Markdown content.
+2. **Index and Retrieve with LlamaIndex**:
+    - Split the parsed document into nodes.
+    - Create a **vector store** to enable efficient retrieval.
+    - Build a query engine and enhance relevance with a **SentenceTransformerRerank** model.
+3. **Configure NeMo Guardrails**:
+    - Define conversation flows using **Colang** for input moderation, dialogue rules, and output validation.
+    - Set up custom Python actions, like escalating industrial queries beyond the chatbot's scope.
+4. **Testing and Deployment**: Use test prompts to verify the chatbot's performance and adjust flows for real-world scenarios.
+
+
+#### Prerequisites:
+
+- Basic knowledge of Python and LlamaIndex.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Why Google Colab?
